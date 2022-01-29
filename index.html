@@ -6,9 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="/javaScr.js" defer></script>
+    <script src="javaScr.js" defer></script>
 </head>
 <body>
+    <div class="bounds">
+        <div id="casing">
+            <div class="screen">
+                <output class="old-input" data-type="text" id="old-input"></output>
+                <output class="new-input" data-type="text" id="new-input"></output>
+            </div>
+            <button class="dugme" data-type="allClear" id="allClear">AC</button>
+            <button class="dugme" data-type="clear" id="clear">C</button>
+            <button class="dugme" data-type="operand" id="devide">/</button>
+            
+            <button class="dugme" data-type="number" id="num1" value="1">1</button>
+            <button class="dugme" data-type="number" id="num2" value="2">2</button>
+            <button class="dugme" data-type="number" id="num3" value="3">3</button>
+            <button class="dugme" data-type="operand" id="multply">*</button>
+
+            <button class="dugme" data-type="number" id="num4" value="4">4</button>
+            <button class="dugme" data-type="number" id="num5" value="5">5</button>
+            <button class="dugme" data-type="number" id="num6" value="6">6</button>
+            <button class="dugme" data-type="operand" id="add">+</button>
+            
+            <button class="dugme" data-type="number" id="num7" value="7">7</button>
+            <button class="dugme" data-type="number" id="num8" value="8">8</button>
+            <button class="dugme" data-type="number" id="num9" value="9">9</button>
+            <button class="dugme" data-type="operand" id="subtract">-</button>
+
+            <button class="dugme" data-type="decimal" id="decimal" value=".">.</button>
+            <button class="dugme" data-type="number" id="num0" value="0">0</button>
+            <button class="dugme" data-type="equal" id="equal">=</button>
+        </div>
+    </div>
     
 </body>
 </html>
